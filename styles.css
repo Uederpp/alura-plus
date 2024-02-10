@@ -6,6 +6,26 @@
     --font-principal: 'Inter';
 }
 
+/* Estilos padrão aqui */
+
+/* Estilos para telas menores (como smartphones) */
+@media only screen and (max-width: 600px) {
+    .container {
+        grid-template-columns: 100%; /* Altera para uma única coluna */
+    }
+
+    .container__caixa {
+        margin: 0; /* Redefine a margem para se adequar à largura total */
+    }
+
+    /* Adicione mais ajustes conforme necessário para outros elementos */
+}
+
+/* Estilos para tablets e telas maiores se necessário */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    /* Adicione estilos específicos para tablets */
+}
+
 
 body {
     background-color: var(--cor-de-fundo);
@@ -48,6 +68,8 @@ body {
 
 .image {
     margin: 1em 0 2em 0;
+    width: auto;
+    height: auto;
 }
 
 .botao-principal {
@@ -79,12 +101,14 @@ body {
 
 .secundario_imagem {
     width: 80%;
+    height: auto;
 }
 
 .secundario {
     align-items: center;
     margin: 0 10em;
 }
+
 
 .titulo-secundario {
     font-weight: 700;
@@ -112,6 +136,7 @@ body {
 
 .imagem__dois {
     width: 85%;
+    height: auto;
 }
 
 .dispositivos {
@@ -130,9 +155,9 @@ body {
     margin: 5em 0;
 }
 
-.lista__imagens {
-    width: 339px;
-    height: 192px;
+.dispositivos__imagens {
+    width: auto;
+    height: auto;
 }
 
 .lista__item {
@@ -145,6 +170,10 @@ body {
     padding: 5em 3em;
 }
 
+.imagem__footer {
+    width: auto;
+    height: auto;
+}
 
 .lista__link__todos {
     display: flex;
