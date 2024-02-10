@@ -1,0 +1,173 @@
+:root {
+    --cor-primaria: #FFFFFF;
+    --cor-secundaria: #C0C0C0;
+    --cor-do-botao: #167BF7;
+    --cor-de-fundo: #040818;
+    --font-principal: 'Inter';
+}
+
+
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--cor-primaria);
+    font-family: var(--font-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.principal {
+    background-image: url("img/Background.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    align-items: center;
+    text-align: center;
+}
+
+.container { 
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.container__caixa {
+    margin: 0 6em;
+}
+
+.titulo-primario {
+    font-size: 28px;
+    font-weight: 700;
+    font-family: Inter;
+    line-height: 34px;
+    letter-spacing: 0em;
+}
+
+.image {
+    margin: 1em 0 2em 0;
+}
+
+.botao-principal {
+    background-color: var(--cor-do-botao);
+    border-radius: 5px;
+    padding: 16px;
+    color: var(--cor-primaria);
+    display: block;
+    text-decoration: none;
+    margin-bottom: 1em;
+    
+}
+
+.botao-secundario {
+    background-color: transparent;
+    border: 1px solid var(--cor-primaria);
+    padding: 1em;
+    color: var(--cor-primaria);
+    display: block;
+    text-decoration: none;
+    margin: 1em;
+    
+}
+
+.aviso {
+    font-size: 12px;
+    color: var(--cor-secundaria);
+}
+
+.secundario_imagem {
+    width: 80%;
+}
+
+.secundario {
+    align-items: center;
+    margin: 0 10em;
+}
+
+.titulo-secundario {
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--cor-primaria);
+    margin-bottom: 0.1em;
+}
+
+.descricao_texto{
+    color: var(--cor-secundaria);
+}
+
+.container__descricao {
+    padding: 2em;
+}
+
+.paragrafo-descricao{
+    color: var(--cor-secundaria);
+}
+
+.botao-terceario {
+    display: inline-block;
+    margin-top: 1em;
+}
+
+.imagem__dois {
+    width: 85%;
+}
+
+.dispositivos {
+    text-align: center;
+    margin: 5em 0;
+}
+
+.dispositivos__titulo {
+    font-size: 48px;
+}
+.dispositivos__lista {
+    display: flex;   
+    justify-content: center;
+    list-style-type: none;
+    color: var(--cor-primaria);
+    margin: 5em 0;
+}
+
+.lista__imagens {
+    width: 339px;
+    height: 192px;
+}
+
+.lista__item {
+    font-size: 32px;
+    color: var(--cor-primaria);
+}
+
+.rodape {
+    text-align: center;
+    padding: 5em 3em;
+}
+
+
+.lista__link__todos {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 1em;
+}
+
+.lista__link a{
+    text-decoration: none;
+    margin-left: 1em;
+    color: var(--cor-primaria);
+
+}
+
+.lista__link a:hover {
+    color: var(--cor-do-botao);
+}
+
+.rodape__texto {
+    color: var(--cor-secundaria);
+    font-size: 14px;
+    margin: 1em 0;
+}
+ 
+
